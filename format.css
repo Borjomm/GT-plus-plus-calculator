@@ -1,0 +1,50 @@
+body {
+    background: darkslategray;
+    font-family: system-ui;
+    color: white;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  .wrapper {
+    text-align: center;
+  }
+label {
+    font-size: 20px;
+}
+select {
+    font-size: 16px;
+}
+.values
+{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(91, 247, 91);
+}
+.input {
+    text-align: center;
+    display: inline-block;
+    color: white; 
+    margin-right: 10px; 
+    font-size:20px;
+}
+#sel-stats {
+    clear: left;
+    
+}
+#maxeu {
+    color: orange;
+}
+#total-eu {
+    color: orange;
+}
+.out {
+font-style: normal;
+font-size: 18px;
+}
+.final {
+    margin-top: 150px;
+    clear: left;
+    text-align: center;
+}

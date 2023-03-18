@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="format.css" media="screen" />
+</head>    
+<body>
+        <h1>GT++ Calculator for GTNH 2.3.0</h1>
+        <div class="wrapper"><p><div class="input" id="div1">
+        <label for="machines" id="l1">Choose a Multiblock:<br></label>
+        <select id="machines">
+
+
+
+            <option value="" selected hidden>- - -</option>
+            <option value=centrifuge>Industrial Centrifuge</option>
+            <option value=press>Industrial Material Press</option>
+            <option value=electrolyzer>Industrial Electrolyzer</option>
+            <option value=mixer>Industrial Mixing Machine</option>
+            <option value=sifter>Industrial Sifter</option>
+            <option value=thermal>Industrial Thermal Centrifuge</option>
+            <option value=washer>Industrial Ore Washing Plant</option>
+            <option value=extruder>Industrial Extrusion Machine</option>
+            <option value=cutter>Industrial Cutting Factory</option>
+            <option value=misc>Large Processing Factory</option>
+            <option value=macerator>Maceration Stack Controller</option>
+            <option value=wiremill>Wire Factory Controller</option>
+            <option value=packager>Amazon Warehousing Depot</option>
+            <option value=freezer>Cryogenic Freezer</option>
+            <option value=ebf>Volcanus</option>
+
+
+        </select><br>
+        <var class="out" id="speed-p">Speed</var><br>
+        <var class="out" id="eu-p">Eu/t</var><br>
+        <var class="out" id="par-p">Parallels</var><br>
+        <var class="out" id="par-max"></var>
+        </div>
+        <div class="input" id="eu-div">
+        <label for="eut" id="l2">Original Eu/t:</label><br>
+        <input type="text" id="eut" size="14"><br>
+        M/B Eu/t:<br>
+        <var class = "values" id="new-eu"></var><br>
+        Total parallels:<br>
+        <var class = "values" id="total-pars"></var>
+    </div>
+        <div class="input">
+            <label for="time" id="l3">Time (sec):</label><br>
+            <input type="text" id="time" size="14"><br>
+            M/B Time:<br>
+            <var class = "values" id="new-time"></var><br>
+            GT Overclocks:<br>
+            <var class = "values" id="total-oc"></var>
+        </div>
+            <div class="input" id="v_tier">
+                <label for="tier" id="l4">Voltage Tier:</label><br>
+                <select name="tier-list" id="tiers">
+                <option value="0" selected hidden>- - -</option>
+                <option value="1">LV</option>;
+                <option value="2">MV</option>;
+                <option value="3">HV</option>;
+                <option value="4">EV</option>;
+                <option value="5">IV</option>;
+                <option value="6">LuV</option>;
+                <option value="7">ZPM</option>;
+                <option value="8">UV</option>;
+                <option value="9">UHV</option>;
+                <option value="10">UEV</option>;
+                <option value="11">UIV</option>;
+                <option value="12">UMV</option>;
+                <option value="13">UXV</option>;
+                </select><br>
+            Max Eu/t:<br>
+            <var id = "maxeu"></var><br>
+            Total Eu/t<br>
+            <var id = "total-eu"></var>
+            </div>
+            </p></div><div class="final"><p><button onClick="run()" id="run-button">Calculate!</button></p></div>
+                
+                  <script src="calc.js"></script>       
+    </body>
+</html>
