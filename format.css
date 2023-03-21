@@ -28,6 +28,7 @@ select {
     color: white; 
     margin-right: 10px; 
     font-size:20px;
+    vertical-align: top;
 }
 #sel-stats {
     clear: left;
