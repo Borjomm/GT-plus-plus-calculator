@@ -71,7 +71,7 @@ var machineOption = document.createElement('option');
   window.onload = initLoad, tierLoad(0);
 
   function roundTime(num) {
-    return (Math.ceil(num*20)/20).toFixed(2);
+    return (Math.floor(num*20)/20).toFixed(2);
 }
 
 // Динамический список тиров
@@ -131,7 +131,7 @@ else {
       console.log("eut check successful!");
       if (recipeTier < tierList.length) {
       var recipeTime = document.getElementById('time').value;
-      var newEu = Math.round(eutInfo * eu);
+      var newEu = Math.floor(eutInfo * eu);
       console.log("Par_limit is " + machineInfo.par_limit);
       document.getElementById('new-eu').innerHTML = newEu;
       var maxEu = 8 * Math.pow(4, selectedTierNumber);
