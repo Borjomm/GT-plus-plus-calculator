@@ -98,7 +98,7 @@ function error(name) {
      case 'eu-high':
          console.log ("Eu/t is too high!");
          document.getElementById('new-eu').innerHTML = "Too High!";
-         tierLoad(-1);
+         tierLoad(0);
          break;
  }
 }
