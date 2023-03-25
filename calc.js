@@ -129,7 +129,7 @@ else {
     var selectedTierNumber = tierId(document.getElementById('tiers').value);
     if (eutInfo > 0) {
       console.log("eut check successful!");
-      if (recipeTier < tierList.length) {
+      if (recipeTier <= tierList.length) {
       var recipeTime = document.getElementById('time').value;
       var newEu = Math.floor(eutInfo * eu);
       console.log("Par_limit is " + machineInfo.par_limit);
