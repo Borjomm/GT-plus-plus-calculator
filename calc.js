@@ -78,7 +78,7 @@ var machineOption = document.createElement('option');
 function tierLoad(startTier) {
 var tierSelect = document.getElementById('tiers')
 var tierOption = document.createElement('option');
-if (startTier <= tierList.length) {
+if (startTier <= tierList.length && startTier >= 0) {
   tierSelect.innerHTML = null;
   for (var i = startTier; i < tierList.length; i++) {
     tierOption.innerHTML = tierList[i].name;
