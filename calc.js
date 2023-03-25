@@ -123,7 +123,7 @@ function tierTable() {
   run();
 }
 else {
-  error(eu-high);
+  error('eu-high');
 }
   }
 
@@ -184,7 +184,7 @@ else {
       }
     }
     else {
-        error(eu-high);
+        error('eu-high');
     }
     }
     else {
