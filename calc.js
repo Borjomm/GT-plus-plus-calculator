@@ -87,6 +87,16 @@ if (startTier <= tierList.length) {
 }
 }
 
+
+function error(name) {
+ switch(name) {
+     case 'eu-high':
+         console.log ("Eu/t is too high!");
+         document.getElementById('new-eu').innerHTML = "Too High!";
+         break;
+ }
+}
+
 function countTier(eut) {
   for (i = 32, o = 1; i < eut; i *= 4, o++) {
   }
@@ -175,8 +185,7 @@ else {
       }
     }
     else {
-      console.log ("Eu/t is too high!");
-      document.getElementById('new-eu').innerHTML = "Too High!";
+        error(eu-high);
     }
     }
     else {
