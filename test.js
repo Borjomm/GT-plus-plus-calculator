@@ -1,7 +1,4 @@
-fetch('test.json')
-.then {
-  var array = response;
-}
+const array = JSON.parse(machineStats);
 
 
 function getArray() {
