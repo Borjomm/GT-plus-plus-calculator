@@ -178,7 +178,7 @@ else {
     }
     else {
       console.log ("Eu/t is too high!");
-      document.getElementById('new-eu').innerHTML = "Too High!" + jsonMachines;
+      document.getElementById('new-eu').innerHTML = "Too High!" + jsonMachines.machineStats;
     }
     }
     else {
