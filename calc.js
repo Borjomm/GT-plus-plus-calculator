@@ -78,18 +78,13 @@ var machineOption = document.createElement('option');
 function tierLoad(startTier) {
 var tierSelect = document.getElementById('tiers')
 var tierOption = document.createElement('option');
-if (startTier <= tierList.length && startTier >= 0) {
+if (startTier <= tierList.length) {
   tierSelect.innerHTML = null;
   for (var i = startTier; i < tierList.length; i++) {
     tierOption.innerHTML = tierList[i].name;
     tierSelect.append(tierOption.cloneNode(true));
   }
 }
-    else {
-        tierSelect.innerHTML = null;
-        tierOption.innerHTML = "N/A";
-        tierSelect.append(tierOption.cloneNode(true));
-    }
 }
 
 
@@ -98,7 +93,6 @@ function error(name) {
      case 'eu-high':
          console.log ("Eu/t is too high!");
          document.getElementById('new-eu').innerHTML = "Too High!";
-         tierLoad(-1);
          break;
  }
 }
