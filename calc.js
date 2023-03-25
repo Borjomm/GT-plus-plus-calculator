@@ -123,8 +123,7 @@ function tierTable() {
   run();
 }
 else {
-  console.log("Eu/t is too high!")
-  return 1;
+  error(eu-high);
 }
   }
 
