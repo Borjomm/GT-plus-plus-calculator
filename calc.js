@@ -1,5 +1,3 @@
-import jsonMachines from 'machines.json' assert {type: 'json'};
-
 const machineStats = [
     {name: 'Industrial Centrifuge', speed: 125, eu: 90, par: 6, par_limit: 0},
     {name: 'Industrial Material Press', speed: 500, eu: 100, par: 4, par_limit: 0},
