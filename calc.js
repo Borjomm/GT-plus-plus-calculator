@@ -85,6 +85,11 @@ if (startTier <= tierList.length) {
     tierSelect.append(tierOption.cloneNode(true));
   }
 }
+    else if (startTier = -1) {
+        tierSelect.innerHTML = null;
+        tierOption.innerHTML = "N/A";
+        tierSelect.append(tierOption.cloneNode(true));
+    }
 }
 
 
@@ -93,6 +98,7 @@ function error(name) {
      case 'eu-high':
          console.log ("Eu/t is too high!");
          document.getElementById('new-eu').innerHTML = "Too High!";
+         tierLoad(-1);
          break;
  }
 }
