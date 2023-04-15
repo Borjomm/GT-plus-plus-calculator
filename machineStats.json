@@ -1,0 +1,16 @@
+[    {        "name": "Industrial Centrifuge",        "speed": 125,        "eu": 90,        "par": 6,        "par_limit": 0    },    
+{        "name": "Industrial Material Press",        "speed": 500,        "eu": 100,        "par": 4,        "par_limit": 0    },    
+{        "name": "Industrial Electrolyzer",        "speed": 180,        "eu": 90,        "par": 2,        "par_limit": 0    },    
+{        "name": "Industrial Mixing Machine",        "speed": 250,        "eu": 100,        "par": 8,        "par_limit": 0    },    
+{        "name": "Industrial Sifter",        "speed": 400,        "eu": 75,        "par": 4,        "par_limit": 0    },    
+{        "name": "Industrial Thermal Centrifuge",        "speed": 150,        "eu": 80,        "par": 8,        "par_limit": 0    },    
+{        "name": "Industrial Ore Washing Plant",        "speed": 400,        "eu": 100,        "par": 4,        "par_limit": 0    },    
+{        "name": "Industrial Extrusion Machine",        "speed": 250,        "eu": 100,        "par": 4,        "par_limit": 0    },    
+{        "name": "Industrial Cutting Factory",        "speed": 200,        "eu": 75,        "par": 4,        "par_limit": 0    },    
+{        "name": "Large Processing Factory",        "speed": 250,        "eu": 80,        "par": 2,        "par_limit": 0    },    
+{        "name": "Maceration Stack Controller",        "speed": 60,        "eu": 100,        "par": 8,        "par_limit": 0    },    
+{        "name": "Wire Factory Controller",        "speed": 200,        "eu": 75,        "par": 4,        "par_limit": 0    },    
+{        "name": "Amazon Warehousing Depot",        "speed": 500,        "eu": 75,        "par": 16,        "par_limit": 0    },    
+{        "name": "Cryogenic Freezer",        "speed": 100,        "eu": 100,        "par": 4,        "par_limit": 1    },    
+{        "name": "Volcanus",        "speed": 20,        "eu": 90,        "par": 8,        "par_limit": 1    }
+]
