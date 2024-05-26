@@ -14,5 +14,5 @@
 {        "name": "Amazon Warehousing Depot",        "speed": 500,        "eu": 75,        "par": 16,        "par_limit": 0    },    
 {        "name": "Cryogenic Freezer",        "speed": 100,        "eu": 100,        "par": 4,        "par_limit": 1    },    
 {        "name": "Volcanus",        "speed": 20,        "eu": 90,        "par": 8,        "par_limit": 1    },
-{        "name": "Matter Fabricator",        "speed": 0,        "eu": 4096,        "par": 8,        "par_limit": 0    }
+{        "name": "Matter Fabricator",        "speed": 0,        "eu": 80,        "par": 8,        "par_limit": 0    }
 ]
